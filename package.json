@@ -1,0 +1,25 @@
+{
+  "name": "url-csv-builder",
+  "version": "1.0.0",
+  "description": "Parse a csv file and output a formatted csv",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "author": {
+    "name": "Marc du Boucheron",
+    "email": "<m.duboucheron@gmail.com>"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "commander": "^2.8.1",
+    "fast-csv": "^0.6.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3",
+    "load-grunt-tasks": "^3.2.0",
+    "q": "^1.4.1",
+    "underscore": "^1.8.3",
+    "winston": "^1.0.1"
+  }
+}
